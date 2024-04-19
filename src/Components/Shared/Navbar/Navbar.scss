@@ -1,0 +1,44 @@
+.Navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background: aqua;
+    align-items: center;
+ .Logo{
+    a{
+        img{
+            width: 50px;
+        }
+    }
+ }
+ .Navbar-Links{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0;
+   
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+ }
+ .Login-SignUp{
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 15px; 
+    }
+
+ }
+ @media(max-width: 1000px){
+    display: none;
+ }
+
+}

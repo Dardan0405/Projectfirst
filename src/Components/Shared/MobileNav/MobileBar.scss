@@ -1,0 +1,9 @@
+.MobileBar{
+    display: none;
+    @media(max-width: 1000px){
+        display: flex;
+        justify-content: flex-end;
+        font-size: 36px;
+        color: aqua;
+    }
+}

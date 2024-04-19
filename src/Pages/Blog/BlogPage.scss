@@ -1,0 +1,11 @@
+.Blog-Page{
+    display: flex;
+    flex-direction: column;
+    .Navbar{
+        .Navbar-Links{
+          a{
+            color: red;
+          }
+        }
+    }
+}
