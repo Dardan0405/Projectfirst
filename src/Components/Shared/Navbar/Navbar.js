@@ -16,7 +16,7 @@ return(
         </div>
         <div className="Navbar-Links">
             <Link to={"/AboutUs"}> About Us</Link>
-          <Link to={"/"}>Contact US</Link>
+          <Link to={"/ContactUs"}>Contact US</Link>
             <Link to={"/Blog"}>Blog</Link>
 
         </div>
@@ -24,8 +24,9 @@ return(
         <Link to={"/"}>Login</Link>
         <Link to={"/SignUp"}>SignUp</Link>
         </div>
+      
     </div>
-   
+  
 )
 }
 export default Navbar

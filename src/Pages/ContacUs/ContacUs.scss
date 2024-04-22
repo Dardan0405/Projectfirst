@@ -1,0 +1,11 @@
+.ContactPage{
+    display: flex;
+    flex-direction: column;
+}
+.Tabs-Content{
+    margin-top: 5%;
+}
+.react-tabs__tab--selected{
+    color: green;
+    background-color: red;
+}
